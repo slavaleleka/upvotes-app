@@ -1,0 +1,19 @@
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.icon-wrapper--default {
+    color: var(--icon-color-default);
+    background-color: var(--icon-background-default);
+}
+
+.icon-wrapper--selected {
+    background-color: var(--icon-background-selected);
+    color: var(--icon-color-selected);
+}
